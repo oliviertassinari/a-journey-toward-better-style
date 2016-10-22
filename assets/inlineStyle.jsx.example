@@ -1,0 +1,7 @@
+<Paper style={this.mergeAndPrefix(styles.root, this.props.style)}
+  <EnhancedButton style={this.mergeAndPrefix(styles.container, this.props.containerStyle)}>
+    <span style={this.mergeAndPrefix(styles.label, this.props.labelStyle)}>
+      {label}
+    </span>
+  </EnhancedButton>
+</Paper>

@@ -1,0 +1,7 @@
+function getStyles(props) {
+  return {
+    root: { display: 'inline-block', minWidth: this.getThemeButton().minWidth, height: this.getThemeButton().height, transition: Transitions.easeOut() },
+    container: { position: 'relative', height: '100%', width: '100%', padding: 0, overflow: 'hidden', borderRadius: 2, transition: Transitions.easeOut(), backgroundColor: this._getBackgroundColor(), transform: 'translate3d(0, 0, 0)' },
+    label: { position: 'relative', opacity: 1, fontSize: '14px', letterSpacing: 0, textTransform: 'uppercase', fontWeight: Typography.fontWeightMedium, margin: 0, padding: '0px ' + this.context.muiTheme.spacing.desktopGutterLess + 'px', userSelect: 'none', lineHeight: this.getThemeButton().height + 'px', color:  this._getLabelColor(), },
+  };
+},

@@ -1,0 +1,7 @@
+const classes = this.context.styleManager.render(styleSheet);
+
+<ButtonBase className={classNames(classes.root, this.props.className)}
+  <span className={classNames(classes.label, this.props.labelClassName)}>
+    {label}
+  </span>
+</ButtonBase>

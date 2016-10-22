@@ -1,0 +1,7 @@
+<Paper className={classNames("mui-raised-button, this.props.className)}>
+  <EnhancedButton className={classNames("mui-raised-button-container", this.props.classNameContainer}>
+    <span className={classNames("mui-raised-button-label", this.props.labelClassName)}>
+      {label}
+    </span>
+  </EnhancedButton>
+</Paper>

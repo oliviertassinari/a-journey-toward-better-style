@@ -1,21 +1,16 @@
-# Spectacle Boilerplate
+# A Journey toward better style
 
-## Reference
+## Acknowledgement
 
-The Spectacle core API is available at [https://github.com/FormidableLabs/spectacle/blob/master/README.markdown](https://github.com/FormidableLabs/spectacle/blob/master/README.markdown).
+- I would like to thanks [Nathan Marks](https://github.com/nathanmarks) for the awesome work is has done addressing the styling issues.
+- I would like to thanks Pete Hunt for his inspiring talk on reusable components.
+- I would like to thanks [Paris.js](http://parisjs.org/) for giving me the opportunity to share this topic.
 
-## Development
+## Date
 
-After downloading the boilerplate, your first order of business is to open terminal and run `npm install`
+2016-10-27
 
-Next, run `rm -R .git` to remove the existing version control.
+## Online version
 
-Then, to start up the local server, run `npm start`
-
-Open a browser and hit [http://localhost:3000](http://localhost:3000), and we are ready to roll
-
-## Build & Deployment
-
-Building the dist version of the project is as easy as running `npm run build`
-
-If you want to deploy the slideshow to surge, run `npm run deploy`
+- [show](https://oliviertassinari.github.io/a-journey-toward-better-style/)
+- [presenter](https://oliviertassinari.github.io/a-journey-toward-better-style/#/?presenter)
