@@ -32,20 +32,20 @@ taken valuable tradeoffs.
 I'm gonna give my point of view in the rest of this section.
 The information given are biased by my understanding of the reality.
 
-- CSS modules.
+- [CSS modules](https://github.com/css-modules/css-modules)
  - Singularity: Extended CSS DSL. Generate style at built time.
  - Motivation: Having some isolated and composable module of CSS.
 Stay as close as possible to the CSS ecosystem.
-- Aphrodite.
+- [Aphrodite](https://github.com/Khan/aphrodite)
  - Singularity: Per rule style usage and injection.
  - Motivation: Khan Academy was looking for a better way to style components with an existing code base. E.g. usage of `!important`.
-- styled-components.
+- [styled-components](https://github.com/styled-components/styled-components)
  - Singularity: Uses post-CSS at runtime.
  - Motivation: ? My best guess is, leveraging JS power while still using the CSS syntax.
-- JSS:
+- [JSS](https://github.com/cssinjs/jss)
  - Singularity: Has a low-level API.
  - Motivation: ? I have no clue. I should be asking @nathanmarks.
-- Fela
+- [Fela](https://github.com/rofrischmann/fela)
  - Singularity: Has a functional API.
  - Motivation: ? Could be inspired by posts like [Functional Programming, CSS, and your sanity](http://www.jon.gold/2015/07/functional-css/).
 
