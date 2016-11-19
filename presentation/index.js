@@ -408,7 +408,7 @@ const Presentation = () => {
             </ListItem>
             <ListItem>
               <Text textSize="2rem" lineHeight={1.4}>
-                Keyframes / Pseudo (elements / selecteurs) ?
+                Keyframes / Pseudo (elements / selectors) ?
               </Text>
             </ListItem>
             <ListItem>
