@@ -81,7 +81,7 @@ const Presentation = () => {
         <Slide
           notes={`
             Hello everyone, I hope you had a good day.
-            During those 20-30 minutes I have with you, I want to share
+            During those 20 minutes I have with you, I want to share
             my trip, especially enough, through the styles.
           `}
         >
@@ -93,8 +93,9 @@ const Presentation = () => {
           notes={`
             But before going further, I would like to introduce myself.
             My name is Oliver.
-            I wrote my first web app there for 8 years.
-            It was a time when he had to fight for it to work.
+            I have started messing around with the web at HighSchool.
+            I have been hooked since then.
+            It's interesting to see how things has changed.
           `}
         >
           <Heading size={4}>
@@ -118,7 +119,7 @@ const Presentation = () => {
             It is a low-level library of components implementing the
             Material Design Specification.
             It's based on React.
-            I have started working on it 2 years ago.
+            I have started contributing on it 2 years ago.
           `}
         >
           <Image width="100%" src={images['material-ui']} />
@@ -131,7 +132,7 @@ const Presentation = () => {
             The style is in the heart of the problem Material-UI responds.
             The specification is very complicated.
             It is much more complicated than Bootstrap.
-            I spoke of a trip, this trip begins 22 years ago.
+            I spoke of a trip, this trip begins 23 years ago.
             What's in CSS?
             In 1994, the web started to be used by the authors to publish content.
             These authors sought a reliable way to change the style of their documents.
@@ -167,7 +168,7 @@ const Presentation = () => {
         </Slide>
         <Slide
           notes={`
-            It turns out that Pete Hunt raised a very good spot.
+            It turns out that Pete Hunt, ex Facebook engineer, raised a very good spot.
             This feature that allowed the CSS to stand out was removed
             2 years ago from the most popular browser in the world, Chrome.
           `}
@@ -214,7 +215,7 @@ const Presentation = () => {
         <Slide
           bgColor="papayawhip"
           notes={`
-            And the latest release in the last few days.
+            And the latest release in the last few months.
             Difficult to choose among all the choices (paradox of choice).
             I hope that at the end of this talk you'll be able to make an informed choice.
           `}
@@ -228,7 +229,6 @@ const Presentation = () => {
             I have already used the term component a lot.
             I would like us to agree on what I see as a component.
             This definition comes from the React world.
-            I assure you, I do not want to do a React talk.
             This is a piece of interface usable in different contexts.
           `}
         >
@@ -242,7 +242,8 @@ const Presentation = () => {
         <Slide
           bgColor={materialPrimary}
           notes={`
-            Let's take a RaisedButton as an example. We will find it all over the applications.
+            Let's take a button as an example.
+            We will find it all over the applications.
             (forms, dialogs, ...)
             In the rest of the presentation, we will see the different approaches
             we can use to get this result.
@@ -293,7 +294,7 @@ const Presentation = () => {
         <Slide
           notes={`
             It was embarrassing.
-            5m visitors a month.
+            6 m/sessions a month.
           `}
         >
           <Image width="80%" src={images.doctolibAlert2} />
@@ -325,6 +326,7 @@ const Presentation = () => {
             of different context.
             We have the same problems with an app, but here they are multiplied.
              - SASS unsupported, too much time needed to maintain it.
+             - Theming/dynamic style?
              - What about the use of a single component on the screen, splitting code?
           `}
         >
@@ -339,7 +341,7 @@ const Presentation = () => {
             </ListItem>
             <ListItem>
               <Text textSize="2rem" lineHeight={1.4}>
-                Changing the theme at runtime?
+                Changing the theme at runtime/dynamic styles?
               </Text>
             </ListItem>
             <ListItem>
@@ -357,8 +359,8 @@ const Presentation = () => {
         <Slide
           notes={`
             Inspired by vjeux
-            Change controversial. Question our principles
-            separation of responsibilities.
+            Change controversial.
+            Question our principles separation of responsibilities.
             This allowed us:
             - Solve all previous issues.
             - Remove the dependency to external toolchains, webpack etc.
@@ -398,27 +400,27 @@ const Presentation = () => {
           `}
         >
           <Heading size={4}>
-            {"Issues with the inline-style"}
+            {'Issues with the inline-style'}
           </Heading>
           <List>
             <ListItem>
               <Text textSize="2rem" lineHeight={1.4}>
-                Performance ?
+                Performance? 🚀
               </Text>
             </ListItem>
             <ListItem>
               <Text textSize="2rem" lineHeight={1.4}>
-                Keyframes / Pseudo (elements / selectors) ?
+                Keyframes / Pseudo elements & selectors? 🔬
               </Text>
             </ListItem>
             <ListItem>
               <Text textSize="2rem" lineHeight={1.4}>
-                Media queries ?
+                Media queries? 📐
               </Text>
             </ListItem>
             <ListItem>
               <Text textSize="2rem" lineHeight={1.4}>
-                Debug ?
+                Debug? 🔍
               </Text>
             </ListItem>
             <ListItem>
@@ -547,9 +549,9 @@ const Presentation = () => {
                       +
                     </Rank>
                   </TableItem>
-                  <TableItem notes="CSS">
+                  <TableItem notes="CSS, but functional">
                     <Rank rank="-">
-                      -
+                      o
                     </Rank>
                   </TableItem>
                   <TableItem notes="Low level, lot of freedom">
@@ -566,7 +568,10 @@ const Presentation = () => {
               </Appear>
               <Appear>
                 <TableRow>
-                  <TableItem textSize="2rem">
+                  <TableItem
+                    textSize="2rem"
+                    notes="https://github.com/hellofresh/css-in-js-perf-tests"
+                  >
                     First Paint
                   </TableItem>
                   <TableItem notes="preprocessor, but inject everything: 87ms, need isomorphic-style-loader">
@@ -828,7 +833,7 @@ const Presentation = () => {
             - Do I have to use JSS?
               Use it if that answers to problems you face.
             - Great JS perspectives with Houdini
-            - Great CSS perspectives with WebComponent
+            - Great CSS perspectives with WebComponent & CSS Variables
             - Reuse your component and not your CSS classes.
           `}
         >
@@ -848,7 +853,7 @@ const Presentation = () => {
             </ListItem>
             <ListItem>
               <Text textSize="2rem" lineHeight={1.4}>
-                The CSS-in-JS is probably the future.
+                CSS-in-JS could be the future.
               </Text>
             </ListItem>
           </List>

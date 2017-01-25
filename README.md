@@ -8,7 +8,8 @@
 
 ## Date
 
-2016-10-27
+- 2016-10-27
+- 2017-01-26
 
 ## Online version
 
@@ -104,7 +105,7 @@ I was just curious.
 
 |    | CSS modules | Aphrodite | styled-components | JSS | Fela |
 |:---|:------------|:----------|:------------------|:----|:-----|
-| API | -- | + | - | + | ++ |
+| API | -- | + | o | + | ++ |
 | Time to first paint | ++ | o | - | + | o |
 | Library size in kB | ~0 | 18 | 126 | 22 | 9 |
 | Server Rendering | + | o | - | ++ | o |
