@@ -4,7 +4,9 @@
 
 - I would like to thank [Nathan Marks](https://github.com/nathanmarks) for the awesome work is has done addressing the styling issues.
 - I would like to thank Pete Hunt for his inspiring talk on reusable components.
-- I would like to thank [Paris.js](http://parisjs.org/) for giving me the opportunity to share this topic.
+- I would like to thank the following oranizations for giving me the opportunity to share this topic:
+ - [Paris.js](http://parisjs.org/)
+ - [ReactJS-Paris](https://www.meetup.com/fr-FR/ReactJS-Paris/)
 
 ## Date
 
