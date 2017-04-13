@@ -70,7 +70,7 @@ I have sorted them by importance.
  - Is the API declarative?
  The more declarative we are, the better.
 - **Time to first paint**.
-We have a legacy of poor performance with our inline-style implementation (lake of caching).
+We have a legacy of poor performance with our inline-style implementation (lack of caching).
 Reducing the delay between an interaction and something on the screen is quite critical for us.
 I have run a simple benchmark on a modified version of [CSS-in-JS](https://github.com/MicheleBertoli/css-in-js)
 There is quite some factor than can make a difference. I have noticed a factor x2 of difference between the fastest solution (CSS modules) and the slowest one (styled-components).
