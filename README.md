@@ -18,7 +18,7 @@
 - [show](https://oliviertassinari.github.io/a-journey-toward-better-style/)
 - [presenter](https://oliviertassinari.github.io/a-journey-toward-better-style/#/?presenter)
 
-## CSS-in-JS comparaison
+## CSS-in-JS comparison
 
 We started looking for the best styling solution available.
 [Nathan Marks](https://github.com/nathanmarks) built a custom solution
